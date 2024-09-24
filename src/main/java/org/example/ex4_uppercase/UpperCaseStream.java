@@ -1,9 +1,6 @@
-package org.example.e4_uppercase;
+package org.example.ex4_uppercase;
 
-import java.sql.Array;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -35,7 +32,6 @@ public class UpperCaseStream {
         System.out.println("Elementele to upperCase " + upperCaseFor(text));
         System.out.println("Elementele to upperCase " + upperCaseStream(text));
         System.out.println("Elementele to upperCase " + "upperCaseStream");
-        System.out.println(upperCaseString(text));
 
         /*
         Keyoword final ne permite sa cream portiuni de cod CONSTANTE
